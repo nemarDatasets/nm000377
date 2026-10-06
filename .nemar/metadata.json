@@ -1,0 +1,136 @@
+{
+  "version": "2.0",
+  "pipeline_stage": "validated",
+  "authors": {
+    "Melis Yilmaz Balban": {
+      "orcid": "0000-0002-2343-8895",
+      "affiliations": [
+        {
+          "name": "Stanford University School of Medicine",
+          "identifier": "https://ror.org/011pcwc98",
+          "scheme": "ROR"
+        }
+      ]
+    },
+    "Erin Cafaro": {
+      "orcid": "0000-0002-5389-5886"
+    },
+    "Lauren Saue-Fletcher": {
+      "orcid": "0000-0003-1027-2571",
+      "affiliations": [
+        {
+          "name": "Stanford University",
+          "identifier": "https://ror.org/00f54p054",
+          "scheme": "ROR"
+        }
+      ]
+    },
+    "Marlon Joseph Washington": {},
+    "Maryam Bijanzadeh": {
+      "orcid": "0000-0002-9060-8129",
+      "affiliations": [
+        {
+          "name": "University of California San Francisco Medical Center",
+          "identifier": "https://ror.org/01t8svj65",
+          "scheme": "ROR"
+        }
+      ]
+    },
+    "Andrew Moses Lee": {},
+    "Edward Chang": {
+      "orcid": "0000-0003-2480-4700",
+      "affiliations": [
+        {
+          "name": "University of California San Francisco Medical Center",
+          "identifier": "https://ror.org/01t8svj65",
+          "scheme": "ROR"
+        }
+      ]
+    },
+    "Andrew Huberman": {}
+  },
+  "related_identifiers": [
+    {
+      "identifier": "10.5061/dryad.wdbrv15mq",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "10.1016/j.cub.2020.11.035",
+      "identifier_type": "DOI",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/nm000377",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/nm000377",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    }
+  ],
+  "title": "Human Responses to Visually Evoked Threat: intracranial EEG during virtual-reality heights, no-heights and shark stimuli (3 patients)",
+  "license": "CC0-1.0",
+  "dataset_type": "raw",
+  "resource_type_general": "Dataset",
+  "modalities": [
+    "ieeg"
+  ],
+  "resource_type_specific": "iEEG Dataset",
+  "sizes": [
+    "9.30 GB (43 files)"
+  ],
+  "formats": [
+    ".0",
+    ".asv",
+    ".b2zen_unzipped",
+    ".docx",
+    ".eeg",
+    ".fig",
+    ".gz",
+    ".hdr",
+    ".img",
+    ".jpg",
+    ".json",
+    ".m",
+    ".mat",
+    ".md",
+    ".nii",
+    ".ppt",
+    ".tsv",
+    ".txt",
+    ".vhdr",
+    ".vmrk",
+    ".zip"
+  ],
+  "description": "Intracranial EEG recordings from three patients with treatment-resistant epilepsy who viewed immersive virtual-reality stimuli: a modified virtual-heights scene, a matched no-heights control, and (in two patients) a 360-degree shark movie. Simultaneous skin conductance and visual-scanning measures were collected. Electrodes in the insula and orbitofrontal cortex were the focus of the associated study on human responses to visually evoked threat. This is the iEEG portion of the original data release, converted to BIDS without signal processing.",
+  "methods_description": "Recordings used a Tucker-Davis Technologies PZ2 (256-channel) or PZ5 (512-channel) amplifier with an RZ2 acquisition system, sampled at 3051.76 Hz, while patients wore a VR headset secured with a custom Velcro cap. Original MATLAB exports (volts) were re-packaged to BrainVision float32 with no filtering, resampling, re-referencing or channel removal. Electrode tables are provided in an arbitrary space.",
+  "keywords": [
+    {
+      "term": "intracranial EEG"
+    },
+    {
+      "term": "virtual reality"
+    },
+    {
+      "term": "threat"
+    },
+    {
+      "term": "Anxiety",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D001007"
+    },
+    {
+      "term": "insula"
+    },
+    {
+      "term": "orbitofrontal cortex"
+    },
+    {
+      "term": "skin conductance"
+    }
+  ],
+  "source_hash": "dadfbc40934986848db7cee706e4db81aa20dca220f061b20c5fc7db90853bd5"
+}

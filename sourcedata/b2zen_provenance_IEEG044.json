@@ -1,0 +1,870 @@
+{
+  "runs": [
+    {
+      "sub": "EC192",
+      "task": "sharks",
+      "source": "EC 192/TDTData_B12_sharks.mat",
+      "variable": "rawData",
+      "block": 12,
+      "n_channels": 128,
+      "n_samples": 1644898,
+      "fs": 3051.7578,
+      "ANIN_h5shape": [
+        13159181,
+        4
+      ]
+    },
+    {
+      "sub": "EC192",
+      "task": "heights",
+      "source": "EC 192/TDTData_B13_height.mat",
+      "variable": "rawData",
+      "block": 13,
+      "n_channels": 128,
+      "n_samples": 933839,
+      "fs": 3051.7578,
+      "ANIN_h5shape": [
+        7470704,
+        4
+      ]
+    },
+    {
+      "sub": "EC192",
+      "task": "noheights",
+      "source": "EC 192/TDTData_B9_baseline.mat",
+      "variable": "rawData",
+      "block": 9,
+      "n_channels": 128,
+      "n_samples": 970460,
+      "fs": 3051.7578,
+      "ANIN_h5shape": [
+        7763673,
+        4
+      ]
+    },
+    {
+      "sub": "EC200",
+      "task": "noheights",
+      "source": "EC 200/TDTData_B19_baseline.mat",
+      "variable": "Data",
+      "block": 19,
+      "n_channels": 128,
+      "n_samples": 1467897,
+      "fs": 3051.7578,
+      "ANIN_h5shape": [
+        11743165,
+        4
+      ]
+    },
+    {
+      "sub": "EC200",
+      "task": "heights",
+      "source": "EC 200/TDTData_B21_heights.mat",
+      "variable": "rawData",
+      "block": 21,
+      "n_channels": 128,
+      "n_samples": 1004029,
+      "fs": 3051.7578,
+      "ANIN_h5shape": [
+        8032228,
+        4
+      ]
+    },
+    {
+      "sub": "EC205",
+      "task": "sharks",
+      "source": "EC 205/TDTData_205_B12_sharks.mat",
+      "variable": "Data",
+      "block": 12,
+      "n_channels": 64,
+      "n_samples": 1690675,
+      "fs": 3051.7578,
+      "ANIN_h5shape": [
+        13525392,
+        4
+      ]
+    },
+    {
+      "sub": "EC205",
+      "task": "noheights",
+      "source": "EC 205/TDTData_B10_baselineinVR.mat",
+      "variable": "Data",
+      "block": 10,
+      "n_channels": 64,
+      "n_samples": 1342774,
+      "fs": 3051.7578,
+      "ANIN_h5shape": [
+        10742188,
+        4
+      ]
+    },
+    {
+      "sub": "EC205",
+      "task": "heights",
+      "source": "EC 205/TDTData_B11_heights.mat",
+      "variable": "rawData",
+      "block": 11,
+      "n_channels": 64,
+      "n_samples": 924684,
+      "fs": 3051.7578,
+      "ANIN_h5shape": [
+        7397462,
+        4
+      ]
+    }
+  ],
+  "sourcedata": [
+    {
+      "file": "sourcedata/zenodo-4283021/iEEG_data/.b2zen_unzipped",
+      "sha256": "dc51b8c96c2d745df3bd5590d990230a482fd247123599548e0632fdbf97fc22"
+    },
+    {
+      "file": "sourcedata/zenodo-4283021/iEEG_data/iEEG data/Code/AACorrGSR_stanford.m",
+      "sha256": "4c709ab02be8357fd7afef2033cd2bb71cc647c72e170a8cbf94583efacce747"
+    },
+    {
+      "file": "sourcedata/zenodo-4283021/iEEG_data/iEEG data/Code/Compute_ConfInt.m",
+      "sha256": "5c2df5ed15cecd7c5fd34e99f0a0405cd9c84f0def21a938e05b7676e25a316f"
+    },
+    {
+      "file": "sourcedata/zenodo-4283021/iEEG_data/iEEG data/Code/aroundscanning.m",
+      "sha256": "5a20156db8d90ba14406cd14ee4eb2fc8e49c2e2de3641b5fec3a0059c8a179e"
+    },
+    {
+      "file": "sourcedata/zenodo-4283021/iEEG_data/iEEG data/Code/maryamxcorr.m",
+      "sha256": "32cc3a5879cafcf668007746760b4ea647877588d898b64aba6b5edf0843f677"
+    },
+    {
+      "file": "sourcedata/zenodo-4283021/iEEG_data/iEEG data/EC 192/Sharks_scl.mat",
+      "sha256_original": "3cdd6f864e659b2b16847c306bad812a40ef2c83c4fa9a8a57946c1466a63381",
+      "header_created_on_day_masked": true,
+      "sha256_public": "08146683e379b8de4320f8005d8680c79ec99049006c13691fa5a3ee70037ec4",
+      "bytes": 1207361
+    },
+    {
+      "file": "sourcedata/zenodo-4283021/iEEG_data/iEEG data/EC 192/TDTData_B12_sharks.mat",
+      "sha256_original": "9c64b17dc72ad1ea5d91ac81cb3e36b13137285d086c2a7908a2a2048a67cac2",
+      "header_created_on_day_masked": true,
+      "sha256_public": "286fba2559e153ed2f597eed513cf31cb4599a73f722ccca9291650130e57eab",
+      "bytes": 1009644932
+    },
+    {
+      "file": "sourcedata/zenodo-4283021/iEEG_data/iEEG data/EC 192/TDTData_B13_height.mat",
+      "sha256_original": "bff988668b14e29f30ce3fa997c72c3cb7fae4f272788dc97f8c8ab30299c7aa",
+      "header_created_on_day_masked": true,
+      "sha256_public": "d24da22746d7fef4944dca93d0c19d2aa148f177500cd1c56232a165b7f2f14b",
+      "bytes": 574966501
+    },
+    {
+      "file": "sourcedata/zenodo-4283021/iEEG_data/iEEG data/EC 192/TDTData_B9_baseline.mat",
+      "sha256_original": "04f26c2561c3ced4c09cecfd4331e83455c8f51792b0ae4f04a495c79bbff25a",
+      "header_created_on_day_masked": true,
+      "sha256_public": "420dd0f45932f4f7072885c875803d17eb550700e5e15d4a740fb684b03a85ec",
+      "bytes": 598097331
+    },
+    {
+      "file": "sourcedata/zenodo-4283021/iEEG_data/iEEG data/EC 192/VS_heights.mat",
+      "sha256_original": "46ad6e71089cd6f0801bb1106d5dfa142fe3433f7dab509aebaf86c98749bbfb",
+      "header_created_on_day_masked": true,
+      "sha256_public": "d3ba88b7b2764b9e9614e51f4aa30f492b3a31f23e5ad2a39032cb29a5d0dbcc",
+      "bytes": 4016
+    },
+    {
+      "file": "sourcedata/zenodo-4283021/iEEG_data/iEEG data/EC 192/heights_scl.mat",
+      "sha256_original": "5b568b5108d75bb71d9c006897f9eb9d9261bf383132c4228c938708d1ceac24",
+      "header_created_on_day_masked": true,
+      "sha256_public": "5d2911f15f9a0fd8745e8040f833936d8b724b110f70fcef70e16c68f8ce4991",
+      "bytes": 468120
+    },
+    {
+      "file": "sourcedata/zenodo-4283021/iEEG_data/iEEG data/EC 192/noheights_scl.mat",
+      "sha256_original": "9009b265dd6cfa0e23afd9966fd942ea268a2b1f43a5903539e2819a6b287308",
+      "header_created_on_day_masked": true,
+      "sha256_public": "2123022171d9740bd9858cafe9004b2af738d94ead6498ebd5ce008ccfe6f337",
+      "bytes": 621634
+    },
+    {
+      "file": "sourcedata/zenodo-4283021/iEEG_data/iEEG data/EC 192/sycntimes_sharks.mat",
+      "sha256_original": "d2604288b350174aa660435e87ee634262b62ff2abc1d7b76b0154aaa9cdb86a",
+      "header_created_on_day_masked": true,
+      "sha256_public": "10ef17c388a18371846f7495e889ac1edb25c46a75297902ff7f5ffeb717b611",
+      "bytes": 2200
+    },
+    {
+      "file": "sourcedata/zenodo-4283021/iEEG_data/iEEG data/EC 192/synctimes_heights.mat",
+      "sha256_original": "5e9bcd48ff5bd4a1f9c708343102c1ff069f364faaaf07f79f42c738578b7278",
+      "header_created_on_day_masked": true,
+      "sha256_public": "052e020dfad1c3846521b6472f14227057fc83ec8269653e9347d3258f605bf6",
+      "bytes": 2200
+    },
+    {
+      "file": "sourcedata/zenodo-4283021/iEEG_data/iEEG data/EC 192/synctimes_noheights.mat",
+      "sha256_original": "ba2ed2a822a64ed519deb5fe937812d87a63f036934ec36cf41673f8e7d25f78",
+      "header_created_on_day_masked": true,
+      "sha256_public": "5541797e40f6e0d5976e98636d435b963629c172e93bc781dc00dbf13b78dc77",
+      "bytes": 2200
+    },
+    {
+      "file": "sourcedata/zenodo-4283021/iEEG_data/iEEG data/EC 200/TDTData_B19_baseline.mat",
+      "sha256_original": "cbbf561d8243df1c637467f7d170dd392cb3539448cc754d2cb556915409e795",
+      "header_created_on_day_masked": true,
+      "sha256_public": "5753ebae85157f6d97b88265a3dda83105d21caa6ee93251b277efb8b88c04a5",
+      "bytes": 910515609
+    },
+    {
+      "file": "sourcedata/zenodo-4283021/iEEG_data/iEEG data/EC 200/TDTData_B21_heights.mat",
+      "sha256_original": "310c1533c24e3d3daa165c991f90f23b1b1e2561fc65a95587616a08b3cae88b",
+      "header_created_on_day_masked": true,
+      "sha256_public": "28ad5e54bb28e33b3879357022297cc2147e590265086055f0adec08a7c92df0",
+      "bytes": 1202144622
+    },
+    {
+      "file": "sourcedata/zenodo-4283021/iEEG_data/iEEG data/EC 200/heights_scl.mat",
+      "sha256_original": "188f69524d22c2445f899c4039caf7fa369357adc17229a384bed6bd164f458b",
+      "header_created_on_day_masked": true,
+      "sha256_public": "d1aa77be752564bf829f36a430415b8d11b84b67c90f65f9906581a4aac06327",
+      "bytes": 195800
+    },
+    {
+      "file": "sourcedata/zenodo-4283021/iEEG_data/iEEG data/EC 200/noheights_scl.mat",
+      "sha256_original": "801433b4fec45ca041308f5dc787d21bf3cc9c204daf942252a97b102a516067",
+      "header_created_on_day_masked": true,
+      "sha256_public": "6f3a8fadc75896417eab7642b2cdf11a405a4738cecdbbbc31d7509f2d54766e",
+      "bytes": 647787
+    },
+    {
+      "file": "sourcedata/zenodo-4283021/iEEG_data/iEEG data/EC 200/synctimes_baseline.mat",
+      "sha256_original": "62c84e692eb53e2121209b60a822cde936f68d4ce2250fce93cd33ce296ae4e5",
+      "header_created_on_day_masked": true,
+      "sha256_public": "b8a1d35b7eb4e93f58dddf555be8f21f0ad83d6b9f3e9294eb87a376991bbe2e",
+      "bytes": 2200
+    },
+    {
+      "file": "sourcedata/zenodo-4283021/iEEG_data/iEEG data/EC 200/synctimes_heights.mat",
+      "sha256_original": "d454a8e4683ba537248b39b768bdea06d6a77761170c050827e3921dafc62381",
+      "header_created_on_day_masked": true,
+      "sha256_public": "83f70a83574c830337f69c6a081fb5a1705a2a6f4171c3f9f4f0bfd811776d89",
+      "bytes": 2200
+    },
+    {
+      "file": "sourcedata/zenodo-4283021/iEEG_data/iEEG data/EC 205/Sharks_scl.mat",
+      "sha256_original": "fc1dd7c5c639536f5b7a591c61e83ed8e4b426c1b6680b772054d1d1694c5c22",
+      "header_created_on_day_masked": true,
+      "sha256_public": "e3e9cb1417b91b5cfa28eafa7b2effa49689575e03c2114f767846eef03d16f7",
+      "bytes": 939990
+    },
+    {
+      "file": "sourcedata/zenodo-4283021/iEEG_data/iEEG data/EC 205/TDTData_205_B12_sharks.mat",
+      "sha256_original": "0bc64bf48ceba178be8f2d720057bf5a1f1c492901280e8fa6c9fb381635ada3",
+      "header_created_on_day_masked": true,
+      "sha256_public": "4cfaff8f3f4a1b9e3c58d1d34af3c3da9450764435cf55d7da6da46d77d17e38",
+      "bytes": 544650999
+    },
+    {
+      "file": "sourcedata/zenodo-4283021/iEEG_data/iEEG data/EC 205/TDTData_B10_baselineinVR.mat",
+      "sha256_original": "8392537e8e73e4102f244ae26b6410b974fbeea0983d6d5b98394e0256f6fdb2",
+      "header_created_on_day_masked": true,
+      "sha256_public": "af4e85ef3f6f9dbe998855d38c71bb4ded1ff776b16ab789cf983bddbf363cd9",
+      "bytes": 434285028
+    },
+    {
+      "file": "sourcedata/zenodo-4283021/iEEG_data/iEEG data/EC 205/TDTData_B11_heights.mat",
+      "sha256_original": "6cee9de5eeaf3d32a05dd1dd8e2413135c587123500ee984ac2b56dbf6c39f48",
+      "header_created_on_day_masked": true,
+      "sha256_public": "07644969d511ec1a373addaca16abfe55ef611fef5c486f16a9366fed0598c74",
+      "bytes": 566303552
+    },
+    {
+      "file": "sourcedata/zenodo-4283021/iEEG_data/iEEG data/EC 205/VS_heights.mat",
+      "sha256_original": "67fdb1735c89512b73d0852d94100dc0db0308a733caca23733edc6aad69ce9e",
+      "header_created_on_day_masked": true,
+      "sha256_public": "13181d83d9ec86f99e265ec5619fa316279ef2573ea6d2599b0993108b19fac9",
+      "bytes": 2976
+    },
+    {
+      "file": "sourcedata/zenodo-4283021/iEEG_data/iEEG data/EC 205/heights_scl.mat",
+      "sha256_original": "6a6de6398eb3ac8c8e2440b58c0c2ce97c6725fda29ec9a8b3c098e8f6ff33cc",
+      "header_created_on_day_masked": true,
+      "sha256_public": "adaa9260575bab56dfe1a69ea49cf54a763e0a94664b0f7970ffa89c8282b415",
+      "bytes": 587306
+    },
+    {
+      "file": "sourcedata/zenodo-4283021/iEEG_data/iEEG data/EC 205/noheights_scl.mat",
+      "sha256_original": "a6d3bf32baa9757e09b0bb99a02ad569fc5c2d1e2a4d21b61a87996035059d32",
+      "header_created_on_day_masked": true,
+      "sha256_public": "33d12a54fd258526d527735979aa02060e5d6d59301ed3f5da66d505547ce806",
+      "bytes": 3339108
+    },
+    {
+      "file": "sourcedata/zenodo-4283021/iEEG_data/iEEG data/EC 205/sycntimes_noheights.mat",
+      "sha256_original": "fb1c88bcc8eca2412c677ebcc6f303e210f125f54b818d0ce0c556ed9ed05e30",
+      "header_created_on_day_masked": true,
+      "sha256_public": "b7c0cb6eb56f797f188845d258a0a92715c3bc515c9b1635dde7eb37e3049e06",
+      "bytes": 2200
+    },
+    {
+      "file": "sourcedata/zenodo-4283021/iEEG_data/iEEG data/EC 205/synctimes_heights.mat",
+      "sha256_original": "8aee64b1eb6432bfe588be1c6aa9e9faaa48394e626b9e3d927c4e749da54111",
+      "header_created_on_day_masked": true,
+      "sha256_public": "654b93189d3d37624051b8c651b665cbfb59e032f2dc8fc8ceebf50a73995614",
+      "bytes": 6920
+    },
+    {
+      "file": "sourcedata/zenodo-4283021/iEEG_data/iEEG data/EC 205/synctimes_sharks.mat",
+      "sha256_original": "75faacdb09110927c880deb75f0a78e6148a307c6a50e245ba47f2c3a6adf95c",
+      "header_created_on_day_masked": true,
+      "sha256_public": "dc2ef6dc83cf26a95bf5daa60c48bc68e3b19379f7c3933c3aea6e1e4322a167",
+      "bytes": 2200
+    },
+    {
+      "file": "sourcedata/zenodo-4283021/Electrode_Locations/.b2zen_unzipped",
+      "sha256": "dc51b8c96c2d745df3bd5590d990230a482fd247123599548e0632fdbf97fc22"
+    },
+    {
+      "file": "sourcedata/zenodo-4283021/Electrode_Locations/Electrode Locations/EC 192_TDT_elecs_all_warped.mat",
+      "sha256_original": "8c906202626ae4184fed3f4cd979b297e29404ece6d6b3182094b7917e47eda0",
+      "header_created_on_day_masked": true,
+      "sha256_public": "aaec4d7708ccd38b735ee8517edb9c12b8d2c47416d9b94f0c9089ba68e2de1b",
+      "bytes": 27904
+    },
+    {
+      "file": "sourcedata/zenodo-4283021/Electrode_Locations/Electrode Locations/EC 200_TDT_elecs_all_warped.mat",
+      "sha256_original": "29456066d60e136f1bd87fec7795c7f342f29c7f3730288a1ce56ba610576242",
+      "header_created_on_day_masked": true,
+      "sha256_public": "c622374ceb1cb8319ed30e97f476434967679ac20e74399c983df96e99e6ced4",
+      "bytes": 28136
+    },
+    {
+      "file": "sourcedata/zenodo-4283021/Electrode_Locations/Electrode Locations/EC 205_TDT_elecs_all_warped.mat",
+      "sha256_original": "ce5a98b23c7ce9f7cbe0cf3045a26ba4be56e3c791045465d17124df2c1f1779",
+      "header_created_on_day_masked": true,
+      "sha256_public": "1b9118ebde6f04e20393b3bf46aa18626840869c49101e9ba417a9eebc903b4a",
+      "bytes": 15704
+    },
+    {
+      "file": "sourcedata/zenodo-4283021/Electrode_Locations/Electrode Locations/ForMelis.mat",
+      "sha256_original": "7aaaf2fdde13095b918de2c8e6dc6cff136b4965a5af6172ddfce7e101df3ea2",
+      "header_created_on_day_masked": true,
+      "sha256_public": "196448a18ecdae115ebf67d2cdef4f4a74a57ae3671e2d736215fb659ae78bcc",
+      "bytes": 7017726
+    },
+    {
+      "file": "sourcedata/zenodo-4283021/Electrode_Locations/Electrode Locations/ImagePipe/README.md",
+      "sha256": "ecee7d3ba805f77a07ae59702a96c9b8a25046b7498deb56c11583be28fdf142"
+    },
+    {
+      "file": "sourcedata/zenodo-4283021/Electrode_Locations/Electrode Locations/ImagePipe/cbrewer/cbrewer/cbrewer/cbrewer.m",
+      "sha256": "cb17c32da6d884885118a9f67c88a7cca4e5ad2f74e50d0e04e27a5aa564c664"
+    },
+    {
+      "file": "sourcedata/zenodo-4283021/Electrode_Locations/Electrode Locations/ImagePipe/cbrewer/cbrewer/cbrewer/cbrewer_preview.jpg",
+      "sha256": "4ab027f243e63cf5200fc171d4b2736c4fcaa08038bc5a2215ce47e68bc6891c"
+    },
+    {
+      "file": "sourcedata/zenodo-4283021/Electrode_Locations/Electrode Locations/ImagePipe/cbrewer/cbrewer/cbrewer/change_jet.m",
+      "sha256": "c44166f6a26fe29b78c3c73d5f13a72d7c5503cf473d92aed08db7594f50c5f5"
+    },
+    {
+      "file": "sourcedata/zenodo-4283021/Electrode_Locations/Electrode Locations/ImagePipe/cbrewer/cbrewer/cbrewer/colorbrewer.mat",
+      "sha256_original": "ecc0672e63ef38eef41c861bc3c873f7cb3da850d3a8ee0c0e6a345570e1bb66",
+      "header_created_on_day_masked": true,
+      "sha256_public": "849bc877be40fbda279de2dda5fb73b9e81421402a05e6859a3f3bf2bed22c2d",
+      "bytes": 4475
+    },
+    {
+      "file": "sourcedata/zenodo-4283021/Electrode_Locations/Electrode Locations/ImagePipe/cbrewer/cbrewer/cbrewer/interpolate_cbrewer.m",
+      "sha256": "8c4463904c9ca678734fb6da9877923eb674b749f1edc5017009416bae40c43c"
+    },
+    {
+      "file": "sourcedata/zenodo-4283021/Electrode_Locations/Electrode Locations/ImagePipe/cbrewer/cbrewer/cbrewer/plot_brewer_cmap.m",
+      "sha256": "0edcc4e076a449779c9bde806345fb113c8d45171b9986ac841021349966be24"
+    },
+    {
+      "file": "sourcedata/zenodo-4283021/Electrode_Locations/Electrode Locations/ImagePipe/cbrewer/cbrewer/license.txt",
+      "sha256": "23cf7bf505bba85d9405226290e229fdc210371aa6a0b87722d2c87c1276c65f"
+    },
+    {
+      "file": "sourcedata/zenodo-4283021/Electrode_Locations/Electrode Locations/ImagePipe/cbrewer/license.txt",
+      "sha256": "1dfb673cede4a043d967cdd17dd562ab47b6e884434716de69db839fc9435a7a"
+    },
+    {
+      "file": "sourcedata/zenodo-4283021/Electrode_Locations/Electrode Locations/ImagePipe/ctmr_gauss_plot.m",
+      "sha256": "18cfab41ff953aeb6e1e987dee87283096c72badfa41540e374606b53bb3bacf"
+    },
+    {
+      "file": "sourcedata/zenodo-4283021/Electrode_Locations/Electrode Locations/ImagePipe/ctmr_guipackage/Buttons in SPM5-1.ppt",
+      "sha256": "e5e17be7c6a4a69e51d3638352e87505eb0e11917e0e5113fd1e1828cc443a22"
+    },
+    {
+      "file": "sourcedata/zenodo-4283021/Electrode_Locations/Electrode Locations/ImagePipe/ctmr_guipackage/Buttons in SPM5-1.ppt.gz",
+      "sha256": "17b67fafbb94655c31953db1ab6f524af43360f52e382829d204f0bcf1473e0d"
+    },
+    {
+      "file": "sourcedata/zenodo-4283021/Electrode_Locations/Electrode Locations/ImagePipe/ctmr_guipackage/COPYING-3.0",
+      "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903"
+    },
+    {
+      "file": "sourcedata/zenodo-4283021/Electrode_Locations/Electrode Locations/ImagePipe/ctmr_guipackage/COPYING-3.0.gz",
+      "sha256": "4d82ff4636bab556c2f0bb63c378a45e31b98b769a50c1a9605f6cc315bf4fbd"
+    },
+    {
+      "file": "sourcedata/zenodo-4283021/Electrode_Locations/Electrode Locations/ImagePipe/ctmr_guipackage/ctmr.asv",
+      "sha256": "0a14c8d9896170a1f7cff6663d4ccd515955658b127e3bb588dc15df1d53b085"
+    },
+    {
+      "file": "sourcedata/zenodo-4283021/Electrode_Locations/Electrode Locations/ImagePipe/ctmr_guipackage/ctmr.asv.gz",
+      "sha256": "fa54ca2be48af9e05a98502667821da266d7bf926112dd48c5c25b54c51fa166"
+    },
+    {
+      "file": "sourcedata/zenodo-4283021/Electrode_Locations/Electrode Locations/ImagePipe/ctmr_guipackage/ctmr.fig",
+      "sha256": "1a323c41bceca9bf05e02f376e4a85465b1ef9cab01990f66f9a98c64fd92d5c"
+    },
+    {
+      "file": "sourcedata/zenodo-4283021/Electrode_Locations/Electrode Locations/ImagePipe/ctmr_guipackage/ctmr.fig.gz",
+      "sha256": "a508511fc3f9748d8ddb9ee1e3660d744d0656b525ffe6510174153c6a348fa7"
+    },
+    {
+      "file": "sourcedata/zenodo-4283021/Electrode_Locations/Electrode Locations/ImagePipe/ctmr_guipackage/ctmr.m",
+      "sha256": "38e6ebb0907809225b3dac9fa69c56298ae6a1323521c6fc8c577fb1ba8837db"
+    },
+    {
+      "file": "sourcedata/zenodo-4283021/Electrode_Locations/Electrode Locations/ImagePipe/ctmr_guipackage/ctmr.m.gz",
+      "sha256": "dc6dd03824e9aeefb283b5f1940d6f208372bb8c155f9c24088d25dfc4e5035e"
+    },
+    {
+      "file": "sourcedata/zenodo-4283021/Electrode_Locations/Electrode Locations/ImagePipe/ctmr_guipackage/ctmr_extracode_Sept2010/ctmr_vox_plot.m",
+      "sha256": "d83a56ddd7053ea44e67835492523fbc374a414247b7ac6f0b4ad20862f127a7"
+    },
+    {
+      "file": "sourcedata/zenodo-4283021/Electrode_Locations/Electrode Locations/ImagePipe/ctmr_guipackage/ctmr_extracode_Sept2010/el_add_sizable.m",
+      "sha256": "3435d3ed860f30e7ba99983ceac013ba20c0fb80adcb462a915545be11931e8e"
+    },
+    {
+      "file": "sourcedata/zenodo-4283021/Electrode_Locations/Electrode Locations/ImagePipe/ctmr_guipackage/ctmr_extracode_Sept2010/el_mni2native.asv",
+      "sha256": "4206fc31dacff08f7f47bcb59ccbdf6bf95cad97fef96f58be0e188159e4fc23"
+    },
+    {
+      "file": "sourcedata/zenodo-4283021/Electrode_Locations/Electrode Locations/ImagePipe/ctmr_guipackage/ctmr_extracode_Sept2010/el_mni2native.m",
+      "sha256": "a57dd34423bc7221f5207dbfee2d54ce422f15be586eae3ccce77b1bd1a22229"
+    },
+    {
+      "file": "sourcedata/zenodo-4283021/Electrode_Locations/Electrode Locations/ImagePipe/ctmr_guipackage/ctmr_extracode_Sept2010/el_native2mni.m",
+      "sha256": "d4f8f247d97f23c32985e12354e997ef7a4d84cad7e66b9bd81f7911d6318f39"
+    },
+    {
+      "file": "sourcedata/zenodo-4283021/Electrode_Locations/Electrode Locations/ImagePipe/ctmr_guipackage/ctmr_extracode_Sept2010/get_orig_coord5.m",
+      "sha256": "42704a3809bc3ccb7a818a55124a659bb5e0d17a6f66b6c15c8d25764c05ccb7"
+    },
+    {
+      "file": "sourcedata/zenodo-4283021/Electrode_Locations/Electrode Locations/ImagePipe/ctmr_guipackage/ctmr_extracode_Sept2010/imagevalueElectrodeGM.m",
+      "sha256": "6d7cd41200bd497113f044c649f7591a79642d5286c4b4df8a7b856205009fe3"
+    },
+    {
+      "file": "sourcedata/zenodo-4283021/Electrode_Locations/Electrode Locations/ImagePipe/ctmr_guipackage/ctmr_extracode_Sept2010/readme_native2mni.asv",
+      "sha256": "d51234d5ae455bc924e14a5817bcb91553c0978ad685c7970c72bd11a1ab8ac1"
+    },
+    {
+      "file": "sourcedata/zenodo-4283021/Electrode_Locations/Electrode Locations/ImagePipe/ctmr_guipackage/ctmr_extracode_Sept2010/readme_native2mni.m",
+      "sha256": "28cf9907d57ae29fae073f20bbae855acd38802d3ba96a5b8d4992667b56ffcb"
+    },
+    {
+      "file": "sourcedata/zenodo-4283021/Electrode_Locations/Electrode Locations/ImagePipe/ctmr_guipackage/ctmr_extracode_Sept2010/readme_voxplot.m",
+      "sha256": "7f53f449052546217d4100ede62015011f1057f055ca6f02ced2a7140d23ae67"
+    },
+    {
+      "file": "sourcedata/zenodo-4283021/Electrode_Locations/Electrode Locations/ImagePipe/ctmr_guipackage/ctmr_extracode_Sept2010/test_data/maas_ip02_sm2_cortex.mat",
+      "sha256_original": "fdb37e62c8eb0c5b77ecb83c388feadf889251520129f935d353ebc2a98d7b86",
+      "header_created_on_day_masked": true,
+      "sha256_public": "9c68c6460f8a2e8b0506b73e5bf1fb689f852f49f620a6f086804cec905f32c1",
+      "bytes": 2124941
+    },
+    {
+      "file": "sourcedata/zenodo-4283021/Electrode_Locations/Electrode Locations/ImagePipe/ctmr_guipackage/ctmr_extracode_Sept2010/test_data/maas_surface1_16_025.hdr",
+      "sha256": "7eb136884df2af3ff55c381fd472410be301e3b9d71555323abc96369b04ce8d"
+    },
+    {
+      "file": "sourcedata/zenodo-4283021/Electrode_Locations/Electrode Locations/ImagePipe/ctmr_guipackage/ctmr_extracode_Sept2010/test_data/maas_surface1_16_025.img",
+      "sha256": "a9ce351ab5cb508c8cac5a398ea8cba9ae068ef31129f314c7d823289adb3671"
+    },
+    {
+      "file": "sourcedata/zenodo-4283021/Electrode_Locations/Electrode Locations/ImagePipe/ctmr_guipackage/ctmr_extracode_Sept2010/test_data/rc1anat_maas150908_6_1-0001.nii",
+      "sha256": "d40016bc3684391d2e89ac075c9e7b6f2899b6b7bd6a4e623580994f921b3a6f"
+    },
+    {
+      "file": "sourcedata/zenodo-4283021/Electrode_Locations/Electrode Locations/ImagePipe/ctmr_guipackage/ctmr_extracode_Sept2010/test_data/spmT_0001.hdr",
+      "sha256": "b626f5274a9703408c548e86d43763b4ea3e9486adda30de816d75e483d41aa1"
+    },
+    {
+      "file": "sourcedata/zenodo-4283021/Electrode_Locations/Electrode Locations/ImagePipe/ctmr_guipackage/ctmr_extracode_Sept2010/test_data/spmT_0001.img",
+      "sha256": "3e128d3ad4d4921650b972d6a0f5632b89699b09bf03d376a17fb476275ab04f"
+    },
+    {
+      "file": "sourcedata/zenodo-4283021/Electrode_Locations/Electrode Locations/ImagePipe/ctmr_guipackage/ctmr_extracode_Sept2010/tripatch.m",
+      "sha256": "2308337e844b0f28fcc015dbcc1f6c373e164cea587640014ac1020dad797511"
+    },
+    {
+      "file": "sourcedata/zenodo-4283021/Electrode_Locations/Electrode Locations/ImagePipe/ctmr_guipackage/ctmr_extracode_Sept2010/voxplot_func_gm.m",
+      "sha256": "8b5d5c077346106cad7f3940716d10c57401c3cff8aefabecf8b5d157987c654"
+    },
+    {
+      "file": "sourcedata/zenodo-4283021/Electrode_Locations/Electrode Locations/ImagePipe/ctmr_guipackage/ctmr_extracode_Sept2010/voxplot_optmask/ctmr_vox_plot.asv",
+      "sha256": "36473e6d0828c504f3f7844a5099717b0425d9a6a6f9bf72072701641b3aa98b"
+    },
+    {
+      "file": "sourcedata/zenodo-4283021/Electrode_Locations/Electrode Locations/ImagePipe/ctmr_guipackage/ctmr_extracode_Sept2010/voxplot_optmask/ctmr_vox_plot.m",
+      "sha256": "f26e7a59ab220b511c8ac9de2f7b569408bf6d34f53e295cdcdfdbd814a72f56"
+    },
+    {
+      "file": "sourcedata/zenodo-4283021/Electrode_Locations/Electrode Locations/ImagePipe/ctmr_guipackage/ctmr_extracode_Sept2010/voxplot_optmask/readme_voxplot.asv",
+      "sha256": "30b80d9c2fcf9bea51df96ebbda7175ac7f2e2e6eee1a80d53a2175b5837f0a0"
+    },
+    {
+      "file": "sourcedata/zenodo-4283021/Electrode_Locations/Electrode Locations/ImagePipe/ctmr_guipackage/ctmr_extracode_Sept2010/voxplot_optmask/readme_voxplot.m",
+      "sha256": "3afe5a2a7fd7387a9ab158ae5d54616be6f9eb477971962365c16ed2e917cc53"
+    },
+    {
+      "file": "sourcedata/zenodo-4283021/Electrode_Locations/Electrode Locations/ImagePipe/ctmr_guipackage/ctmr_extracode_Sept2010/voxplot_optmask/tripatch.m",
+      "sha256": "2308337e844b0f28fcc015dbcc1f6c373e164cea587640014ac1020dad797511"
+    },
+    {
+      "file": "sourcedata/zenodo-4283021/Electrode_Locations/Electrode Locations/ImagePipe/ctmr_guipackage/ctmr_extracode_Sept2010/voxplot_optmask/voxplot_func_gm.m",
+      "sha256": "bfe3f1bf9af4586ed6732d17bd29bdfa574981887a2ea6349f448afa1312ed57"
+    },
+    {
+      "file": "sourcedata/zenodo-4283021/Electrode_Locations/Electrode Locations/ImagePipe/ctmr_guipackage/ctmr_gauss_plot.m",
+      "sha256": "2e2ab8887323c8f432f9271f67f74f86a8cf1ca0fee010f586f3a4499013c1fe"
+    },
+    {
+      "file": "sourcedata/zenodo-4283021/Electrode_Locations/Electrode Locations/ImagePipe/ctmr_guipackage/ctmr_gauss_plot.m.gz",
+      "sha256": "4ef551a9fc0e768d4c9856cf509e76cdd08ca1e030340aef7d4e84b84b5327a9"
+    },
+    {
+      "file": "sourcedata/zenodo-4283021/Electrode_Locations/Electrode Locations/ImagePipe/ctmr_guipackage/ctmr_gauss_plot.m.old.m",
+      "sha256": "65d3eccd9644f62418da45d758e69a61762aee55c0c0818502e5d2718950ff28"
+    },
+    {
+      "file": "sourcedata/zenodo-4283021/Electrode_Locations/Electrode Locations/ImagePipe/ctmr_guipackage/ctmr_gauss_plot.m.old2.m",
+      "sha256": "9c3d274bd97ec0efb1889c45d06edfecae1c4034ee76c3c84508187a3c999e56"
+    },
+    {
+      "file": "sourcedata/zenodo-4283021/Electrode_Locations/Electrode Locations/ImagePipe/ctmr_guipackage/ctmr_get_mni/el_native2mni_throughNII.m",
+      "sha256": "622f2854ebc20acbb5d7d4b8e1b9c11196ce985d666a7ed95239848c5e6fdf46"
+    },
+    {
+      "file": "sourcedata/zenodo-4283021/Electrode_Locations/Electrode Locations/ImagePipe/ctmr_guipackage/ctmr_get_mni/position2reslicedImage_nrs.m",
+      "sha256": "e1a97860285998fbfbd501ef23ca15cfb87b1123e37789c97e7762d3b748cf04"
+    },
+    {
+      "file": "sourcedata/zenodo-4283021/Electrode_Locations/Electrode Locations/ImagePipe/ctmr_guipackage/ctmr_guipackage.zip",
+      "sha256": "b6647097e7515fdcc730856103727ba513863a95b8786b516e10e9f4e8690b28"
+    },
+    {
+      "file": "sourcedata/zenodo-4283021/Electrode_Locations/Electrode Locations/ImagePipe/ctmr_guipackage/ctmr_guipackage.zip.gz",
+      "sha256": "c0c4a90e233ed68fbf6602515d9567ed0ec707d5d3aaa7aed2df1b385341c251"
+    },
+    {
+      "file": "sourcedata/zenodo-4283021/Electrode_Locations/Electrode Locations/ImagePipe/ctmr_guipackage/ctmr_med_plot.m",
+      "sha256": "e354d7a6e30cbe09b195d2b531f49735b3041be9ab92339ed2e7cd03f3aa364f"
+    },
+    {
+      "file": "sourcedata/zenodo-4283021/Electrode_Locations/Electrode Locations/ImagePipe/ctmr_guipackage/ctmr_med_plot.m.gz",
+      "sha256": "47f3406f2dffe159f9ce65e489188f34370496f05aa9014d9490fb3de2717f3e"
+    },
+    {
+      "file": "sourcedata/zenodo-4283021/Electrode_Locations/Electrode Locations/ImagePipe/ctmr_guipackage/ctmr_package.zip",
+      "sha256": "2bbca76c4d0f4bb10f09fe12b15db044215e25a6e1fcd4a0a306fd1103829ed7"
+    },
+    {
+      "file": "sourcedata/zenodo-4283021/Electrode_Locations/Electrode Locations/ImagePipe/ctmr_guipackage/ctmr_package.zip.gz",
+      "sha256": "1c8ed6565f967af54de1d147ee4197530fc1f997f60efdc952df519528be0751"
+    },
+    {
+      "file": "sourcedata/zenodo-4283021/Electrode_Locations/Electrode Locations/ImagePipe/ctmr_guipackage/ctmr_vox_plot.asv.gz",
+      "sha256": "b302145dd681c7b01f871df8609b3e968a2dafd71c7d7f9e8e4c37c9174010a0"
+    },
+    {
+      "file": "sourcedata/zenodo-4283021/Electrode_Locations/Electrode Locations/ImagePipe/ctmr_guipackage/ctmr_vox_plot.m",
+      "sha256": "1b500004aac41552ce7f19fd1927b1ac9ecba22cd998d669d6b308bb67edefcc"
+    },
+    {
+      "file": "sourcedata/zenodo-4283021/Electrode_Locations/Electrode Locations/ImagePipe/ctmr_guipackage/ctmr_vox_plot.m.gz",
+      "sha256": "f53a4d842de491fba5db82af3282f71f5d6af2a795b3c2e98189677c91d00cd2"
+    },
+    {
+      "file": "sourcedata/zenodo-4283021/Electrode_Locations/Electrode Locations/ImagePipe/ctmr_guipackage/el_add.m",
+      "sha256": "8a6bdbeb4ab6e5d3a094bde0dad2f08c1b462349738c94c8afd2c96489d9d4d3"
+    },
+    {
+      "file": "sourcedata/zenodo-4283021/Electrode_Locations/Electrode Locations/ImagePipe/ctmr_guipackage/el_add.m.gz",
+      "sha256": "47e7d62f2790b83e491947f8e4d365a07e1f93cbf39f0f9728b02c436a799d3e"
+    },
+    {
+      "file": "sourcedata/zenodo-4283021/Electrode_Locations/Electrode Locations/ImagePipe/ctmr_guipackage/el_add.m.old.m",
+      "sha256": "b9c6b5904f2cca1991a5d22cc99eca72431a86656eeddfbae1e7ba5f5504268d"
+    },
+    {
+      "file": "sourcedata/zenodo-4283021/Electrode_Locations/Electrode Locations/ImagePipe/ctmr_guipackage/el_add_sizable.m",
+      "sha256": "292e99aec874b01a2d73149095b236910f9ac7082b3923df598c64ab58e064df"
+    },
+    {
+      "file": "sourcedata/zenodo-4283021/Electrode_Locations/Electrode Locations/ImagePipe/ctmr_guipackage/el_add_sizable.m.gz",
+      "sha256": "6033fccd9d381f93a952bdacf4743a65b64105bac4249f82e33fe72e26ff5d33"
+    },
+    {
+      "file": "sourcedata/zenodo-4283021/Electrode_Locations/Electrode Locations/ImagePipe/ctmr_guipackage/el_add_withr2.m",
+      "sha256": "894a1b015a50835700e050ae25d0b198e279db914290d6bf85da6869a0e39240"
+    },
+    {
+      "file": "sourcedata/zenodo-4283021/Electrode_Locations/Electrode Locations/ImagePipe/ctmr_guipackage/el_add_withr2.m.gz",
+      "sha256": "2fd6eea2b4d23e1b98886340365708944c0366409c06db54868231f4bbee965f"
+    },
+    {
+      "file": "sourcedata/zenodo-4283021/Electrode_Locations/Electrode Locations/ImagePipe/ctmr_guipackage/el_mni2native.asv.gz",
+      "sha256": "592718ae61c13d67a2dd42d93dcce540480c71537575fe3fa354f7e2d571b2d4"
+    },
+    {
+      "file": "sourcedata/zenodo-4283021/Electrode_Locations/Electrode Locations/ImagePipe/ctmr_guipackage/el_mni2native.m.gz",
+      "sha256": "2bfd53fc2ed902fa0fc0d5d428301306a4bcb42ff7c5cd63b6df3d490ea78fb4"
+    },
+    {
+      "file": "sourcedata/zenodo-4283021/Electrode_Locations/Electrode Locations/ImagePipe/ctmr_guipackage/el_native2mni.m.gz",
+      "sha256": "b75af81bef2499a90b6f90450c7772bb85a20a073084632ab18140eef3891c24"
+    },
+    {
+      "file": "sourcedata/zenodo-4283021/Electrode_Locations/Electrode Locations/ImagePipe/ctmr_guipackage/electrodes2surf.m",
+      "sha256": "7f26c9037912d70fe2571007d5e86c3b61521db0d226274fc3e53fe8bd68b928"
+    },
+    {
+      "file": "sourcedata/zenodo-4283021/Electrode_Locations/Electrode Locations/ImagePipe/ctmr_guipackage/electrodes2surf.m.gz",
+      "sha256": "80e63d75dd34c075eb6543e0df111f659632c53ec132f847c3c624a641ba6211"
+    },
+    {
+      "file": "sourcedata/zenodo-4283021/Electrode_Locations/Electrode Locations/ImagePipe/ctmr_guipackage/electrodes2surf_array.m",
+      "sha256": "f8ae3cf9948d329947dd1aa7c88aec0272b05d56cb1a99b9d524b4e70433f6af"
+    },
+    {
+      "file": "sourcedata/zenodo-4283021/Electrode_Locations/Electrode Locations/ImagePipe/ctmr_guipackage/electrodes2surf_array.m.gz",
+      "sha256": "301c043a998c7140a6c31b0e731bac101c214d891f78dbff67ca2b9d1f076774"
+    },
+    {
+      "file": "sourcedata/zenodo-4283021/Electrode_Locations/Electrode Locations/ImagePipe/ctmr_guipackage/gen_cortex_click.m",
+      "sha256": "81ed83723b62d2ede417ccc74ea2931ff59da1e1261047dc5b695b586d84bbb4"
+    },
+    {
+      "file": "sourcedata/zenodo-4283021/Electrode_Locations/Electrode Locations/ImagePipe/ctmr_guipackage/gen_cortex_click.m.gz",
+      "sha256": "7514060a37a740e1276827a75250a7c845c483d2bbe47b5325377ef51bced495"
+    },
+    {
+      "file": "sourcedata/zenodo-4283021/Electrode_Locations/Electrode Locations/ImagePipe/ctmr_guipackage/gen_cortex_click_V0.m",
+      "sha256": "81ed83723b62d2ede417ccc74ea2931ff59da1e1261047dc5b695b586d84bbb4"
+    },
+    {
+      "file": "sourcedata/zenodo-4283021/Electrode_Locations/Electrode Locations/ImagePipe/ctmr_guipackage/gen_cortex_click_V0.m.gz",
+      "sha256": "7514060a37a740e1276827a75250a7c845c483d2bbe47b5325377ef51bced495"
+    },
+    {
+      "file": "sourcedata/zenodo-4283021/Electrode_Locations/Electrode Locations/ImagePipe/ctmr_guipackage/gen_cortex_click_V1.m",
+      "sha256": "df41c728fabe872335e77547812feb4c6f7fc98e3d51efad03b50b73ce7c6899"
+    },
+    {
+      "file": "sourcedata/zenodo-4283021/Electrode_Locations/Electrode Locations/ImagePipe/ctmr_guipackage/gen_cortex_click_V1.m.gz",
+      "sha256": "9349448fdeb0a9bb6ce2e1b2372f4576af6c3ccf0f71f4a2f60c718e5bf6b786"
+    },
+    {
+      "file": "sourcedata/zenodo-4283021/Electrode_Locations/Electrode Locations/ImagePipe/ctmr_guipackage/gen_cortex_click_V2.m",
+      "sha256": "de12636b89faa48b4d01530392fab560c707ed44d130acc5b5811e6c33dc5fbd"
+    },
+    {
+      "file": "sourcedata/zenodo-4283021/Electrode_Locations/Electrode Locations/ImagePipe/ctmr_guipackage/gen_cortex_click_V2.m.gz",
+      "sha256": "06fbd9c218c492d380f2b698165b04b928ff6e330b05f051f142fc18ffba55ea"
+    },
+    {
+      "file": "sourcedata/zenodo-4283021/Electrode_Locations/Electrode Locations/ImagePipe/ctmr_guipackage/get_mask.asv",
+      "sha256": "6621b42ed7700e600eb21e7a0cfd83c222bab33b5689d1f969646d0f8cb59f5c"
+    },
+    {
+      "file": "sourcedata/zenodo-4283021/Electrode_Locations/Electrode Locations/ImagePipe/ctmr_guipackage/get_mask.asv.gz",
+      "sha256": "315c673c4d7d7927d30ccc94ac532fab3c23ffeaef7c73872d552a0794b23e5a"
+    },
+    {
+      "file": "sourcedata/zenodo-4283021/Electrode_Locations/Electrode Locations/ImagePipe/ctmr_guipackage/get_mask.m",
+      "sha256": "920dcc767bec0045e43c6101a5843400618261700b5e1cc8312e80d088b32da2"
+    },
+    {
+      "file": "sourcedata/zenodo-4283021/Electrode_Locations/Electrode Locations/ImagePipe/ctmr_guipackage/get_mask.m.gz",
+      "sha256": "be158e84763c385e048421f982cbfb4e53fb01644d74f7024abd41f6bb9ffd3e"
+    },
+    {
+      "file": "sourcedata/zenodo-4283021/Electrode_Locations/Electrode Locations/ImagePipe/ctmr_guipackage/get_mask_V1.m",
+      "sha256": "7baf1fdfa97570f78c221ab6d43ebd86ba4762a97423096a0d1cb58651974966"
+    },
+    {
+      "file": "sourcedata/zenodo-4283021/Electrode_Locations/Electrode Locations/ImagePipe/ctmr_guipackage/get_mask_V1.m.gz",
+      "sha256": "71655ce747161990254ceb58a33845b8458bb4e1a26be4372945648a46c27374"
+    },
+    {
+      "file": "sourcedata/zenodo-4283021/Electrode_Locations/Electrode Locations/ImagePipe/ctmr_guipackage/get_mask_V2.m",
+      "sha256": "ae6e8ddb435fbbe274f8a5965d04b69cfcb5c07d4a1fdb137662e2bdb361898b"
+    },
+    {
+      "file": "sourcedata/zenodo-4283021/Electrode_Locations/Electrode Locations/ImagePipe/ctmr_guipackage/get_mask_V2.m.gz",
+      "sha256": "554c3659cb8831ccf00e50a54532069e5cd48009343fe670930d6f41ea7cc217"
+    },
+    {
+      "file": "sourcedata/zenodo-4283021/Electrode_Locations/Electrode Locations/ImagePipe/ctmr_guipackage/get_orig_coord5.m.gz",
+      "sha256": "b3531be387852db371d38f49a50bc83c3430a5ed647f338e42321baa823a959b"
+    },
+    {
+      "file": "sourcedata/zenodo-4283021/Electrode_Locations/Electrode Locations/ImagePipe/ctmr_guipackage/hollow_brain.m",
+      "sha256": "7adced7d10b0f1ad8d5d018040a671d22e4a9332f8fcc2ba9ae639ea9103d9a4"
+    },
+    {
+      "file": "sourcedata/zenodo-4283021/Electrode_Locations/Electrode Locations/ImagePipe/ctmr_guipackage/hollow_brain.m.gz",
+      "sha256": "f662ac9aecedf91b86f287a7de9b0d1ac105dd175ee8075450ad5086469e2c75"
+    },
+    {
+      "file": "sourcedata/zenodo-4283021/Electrode_Locations/Electrode Locations/ImagePipe/ctmr_guipackage/imagevalueElectrodeGM.m.gz",
+      "sha256": "2c172fb02c1ede29aba3e0069663523b9eff3c1935c90cc14075e5f509a619c6"
+    },
+    {
+      "file": "sourcedata/zenodo-4283021/Electrode_Locations/Electrode Locations/ImagePipe/ctmr_guipackage/itkgray2ctmr.asv",
+      "sha256": "e8cb792af83e0ef36795fc160310d93b3ac6320494ed7e1a4bb2957ea57002bb"
+    },
+    {
+      "file": "sourcedata/zenodo-4283021/Electrode_Locations/Electrode Locations/ImagePipe/ctmr_guipackage/itkgray2ctmr.asv.gz",
+      "sha256": "f32a4790626a12a2e8eb27c4529144dba68308981e14cdb30b75cec2db284626"
+    },
+    {
+      "file": "sourcedata/zenodo-4283021/Electrode_Locations/Electrode Locations/ImagePipe/ctmr_guipackage/itkgray2ctmr.m",
+      "sha256": "e8cb792af83e0ef36795fc160310d93b3ac6320494ed7e1a4bb2957ea57002bb"
+    },
+    {
+      "file": "sourcedata/zenodo-4283021/Electrode_Locations/Electrode Locations/ImagePipe/ctmr_guipackage/itkgray2ctmr.m.gz",
+      "sha256": "f32a4790626a12a2e8eb27c4529144dba68308981e14cdb30b75cec2db284626"
+    },
+    {
+      "file": "sourcedata/zenodo-4283021/Electrode_Locations/Electrode Locations/ImagePipe/ctmr_guipackage/junk2realnifti.m",
+      "sha256": "2f4c0df1a5183a21ce48faac5ef28be43e1f3cd62a637da22e6bc6ffff1ac2c4"
+    },
+    {
+      "file": "sourcedata/zenodo-4283021/Electrode_Locations/Electrode Locations/ImagePipe/ctmr_guipackage/junk2realnifti.m.gz",
+      "sha256": "0188a035276c0535aff2ede8a992868137921bcccc081dfc94ad21271822d1c2"
+    },
+    {
+      "file": "sourcedata/zenodo-4283021/Electrode_Locations/Electrode Locations/ImagePipe/ctmr_guipackage/label_add.m",
+      "sha256": "25eb7b0983329fe96edb3a37d66530860192c84388e69e2f5786ee558ca0af9c"
+    },
+    {
+      "file": "sourcedata/zenodo-4283021/Electrode_Locations/Electrode Locations/ImagePipe/ctmr_guipackage/label_add.m.gz",
+      "sha256": "185107091255e77ac82a2efac339dc5369513f18dcb1ab505094916396cef5c4"
+    },
+    {
+      "file": "sourcedata/zenodo-4283021/Electrode_Locations/Electrode Locations/ImagePipe/ctmr_guipackage/loc_colormap.mat",
+      "sha256_original": "cb887519c41037708072d85712c9e1e429c117822626131d34a178f7d11ecaec",
+      "header_created_on_day_masked": true,
+      "sha256_public": "31a9be195bc48d4fb85538eed925c43adb7921fbaa6dcf50ff9ad7a3fee2b709",
+      "bytes": 831
+    },
+    {
+      "file": "sourcedata/zenodo-4283021/Electrode_Locations/Electrode Locations/ImagePipe/ctmr_guipackage/loc_colormap.mat.gz",
+      "sha256": "b9341f4218beb4b1c86dca658cc6ad40d7affa12fef3418875eaf37430f4d4c1"
+    },
+    {
+      "file": "sourcedata/zenodo-4283021/Electrode_Locations/Electrode Locations/ImagePipe/ctmr_guipackage/loc_colormap_thresh.mat",
+      "sha256_original": "b7fdde17745867f22aca24cbe93a8a501f16bf316c34a625011ae92ab9e08f78",
+      "header_created_on_day_masked": true,
+      "sha256_public": "1ff1b79d3b0dc0c4518151402dd5082a51ae5680c853be8671cbc3cac7596259",
+      "bytes": 3448
+    },
+    {
+      "file": "sourcedata/zenodo-4283021/Electrode_Locations/Electrode Locations/ImagePipe/ctmr_guipackage/loc_light.m",
+      "sha256": "50adbd5781d7f62f3fbe9a0b1632d6f2dbe92247a48ed9a361762b7f2d46f2f6"
+    },
+    {
+      "file": "sourcedata/zenodo-4283021/Electrode_Locations/Electrode Locations/ImagePipe/ctmr_guipackage/loc_light.m.gz",
+      "sha256": "94805552bd3ee195c55e7b92425c69ca51c6f446d8d674a06ae9d39d6e8eca8c"
+    },
+    {
+      "file": "sourcedata/zenodo-4283021/Electrode_Locations/Electrode Locations/ImagePipe/ctmr_guipackage/loc_view.m",
+      "sha256": "0143cc7bcdeeaa696309dacbe45d9a73cf1d3a2447c645e939e293f35c9ef471"
+    },
+    {
+      "file": "sourcedata/zenodo-4283021/Electrode_Locations/Electrode Locations/ImagePipe/ctmr_guipackage/loc_view.m.gz",
+      "sha256": "c0081abb43cdc1ff42cf98e3f7689f591d4e29bb279fc86bede1a0eb6cbb2a6e"
+    },
+    {
+      "file": "sourcedata/zenodo-4283021/Electrode_Locations/Electrode Locations/ImagePipe/ctmr_guipackage/maas_ip02_sm2_cortex.mat.gz",
+      "sha256": "a7ba8063f8d4badc81dbfda3456649cfa4c06093ee2076c6f9d03c57445281c1"
+    },
+    {
+      "file": "sourcedata/zenodo-4283021/Electrode_Locations/Electrode Locations/ImagePipe/ctmr_guipackage/maas_surface1_16_025.hdr.gz",
+      "sha256": "0ad23e157d52d7fe53874a71467ca7c2dfd55e81f628cb356b0c398d4f8cc0ff"
+    },
+    {
+      "file": "sourcedata/zenodo-4283021/Electrode_Locations/Electrode Locations/ImagePipe/el_add.m",
+      "sha256": "dfe7dca37c2b1dd1ab7133ec5b1845b0296ca70953f33b0c100d1c51e2214c26"
+    },
+    {
+      "file": "sourcedata/zenodo-4283021/Electrode_Locations/Electrode Locations/ImagePipe/make rois/make_mesh.m",
+      "sha256": "6f3cbf19b2134df69c4f679c701203c5a4b4d70e66b863d932bf1c776a337d6c"
+    },
+    {
+      "file": "sourcedata/zenodo-4283021/Electrode_Locations/Electrode Locations/ImagePipe/make rois/make_roi_mesh.m",
+      "sha256": "814849d7f889aa914bb22b44e0a781f5eff3f212f435cec59e7e8cb297cb12ad"
+    },
+    {
+      "file": "sourcedata/zenodo-4283021/Electrode_Locations/Electrode Locations/ImagePipe/plot_brain.m",
+      "sha256": "f367a9fe963bdd6f273da3bce86e67d7788a3f6cc65992e27add27fe446fe24a"
+    },
+    {
+      "file": "sourcedata/zenodo-4283021/Electrode_Locations/Electrode Locations/PlotForMelis.asv",
+      "sha256": "ec0eee3a516bf2d1099648b17eef85341a3bf58787a149ef0b66be6130d8f00d"
+    },
+    {
+      "file": "sourcedata/zenodo-4283021/Electrode_Locations/Electrode Locations/PlotForMelis.m",
+      "sha256": "2dfa0e4eac9aafebaf0ee20eb82708cdfa603fc6bfe0bcf4d4fedebe495cc622"
+    },
+    {
+      "file": "sourcedata/zenodo-4283021/Electrode_Locations/Electrode Locations/ctmr_gauss_plot.m",
+      "sha256": "18cfab41ff953aeb6e1e987dee87283096c72badfa41540e374606b53bb3bacf"
+    },
+    {
+      "file": "sourcedata/zenodo-4283021/Electrode_Locations/Electrode Locations/el_add.m",
+      "sha256": "61cd5f1df86e1c0f22b4016286f8410c7582f2a875c814460110d7135b3052e3"
+    },
+    {
+      "file": "sourcedata/zenodo-4283021/Read_me_for_STARS/.b2zen_unzipped",
+      "sha256": "dc51b8c96c2d745df3bd5590d990230a482fd247123599548e0632fdbf97fc22"
+    },
+    {
+      "file": "sourcedata/zenodo-4283021/Read_me_for_STARS/Read me for STARS.docx",
+      "sha256": "2137bfd34516d24adc1d7aecbce7022b3fe7666df63b9b5b8be7ea4d8091a573"
+    }
+  ],
+  "excluded_from_public_package": [
+    {
+      "file": "Heights.zip",
+      "reason": "healthy/anxious VR participants (no iEEG); the Heights/HeightsControl session logs carry real session date-times and Unix timestamps. Available from the CC0 source record."
+    },
+    {
+      "file": "HeightsControl.zip",
+      "reason": "healthy/anxious VR participants (no iEEG); the Heights/HeightsControl session logs carry real session date-times and Unix timestamps. Available from the CC0 source record."
+    },
+    {
+      "file": "Raw_data_for_gaze_and_cognitive_game_scores.zip",
+      "reason": "healthy/anxious VR participants (no iEEG); the Heights/HeightsControl session logs carry real session date-times and Unix timestamps. Available from the CC0 source record."
+    },
+    {
+      "file": "Peripheral_Physiology_Data_and_Code.zip",
+      "reason": "healthy/anxious VR participants (no iEEG); the Heights/HeightsControl session logs carry real session date-times and Unix timestamps. Available from the CC0 source record."
+    },
+    {
+      "file": "Survey_Data.zip",
+      "reason": "healthy/anxious VR participants (no iEEG); the Heights/HeightsControl session logs carry real session date-times and Unix timestamps. Available from the CC0 source record."
+    },
+    {
+      "file": "Game_Data_and_Analysis.zip",
+      "reason": "healthy/anxious VR participants (no iEEG); the Heights/HeightsControl session logs carry real session date-times and Unix timestamps. Available from the CC0 source record."
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "Name": "Human Responses to Visually Evoked Threat: intracranial EEG during virtual-reality heights, no-heights and shark stimuli (3 patients)",
+  "BIDSVersion": "1.10.0",
+  "DatasetType": "raw",
+  "License": "CC0-1.0",
+  "Authors": [
+    "Melis Yilmaz Balban",
+    "Erin Cafaro",
+    "Lauren Saue-Fletcher",
+    "Marlon Joseph Washington",
+    "Maryam Bijanzadeh",
+    "Andrew Moses Lee",
+    "Edward Chang",
+    "Andrew Huberman"
+  ],
+  "Acknowledgements": "Data release: Dryad doi:10.5061/dryad.wdbrv15mq, mirrored as Zenodo record 4283021. BIDS conversion of the iEEG part: ieeg-nemar-20261005 campaign (batch-2 Zenodo lane); no signal processing applied.",
+  "HowToAcknowledge": "Please cite Yilmaz Balban M, Cafaro E, Saue-Fletcher L, Washington MJ, Bijanzadeh M, Lee AM, Chang EF, Huberman AD (2021) Human Responses to Visually Evoked Threat. Curr Biol 31(3):601-612.e3. doi:10.1016/j.cub.2020.11.035, and the data record doi:10.5061/dryad.wdbrv15mq.",
+  "Funding": [],
+  "EthicsApprovals": [
+    "iEEG: procedures approved by the University of California, San Francisco Institutional Review Board; all subjects provided written consent (Yilmaz Balban et al. 2021, STAR Methods). VR experiments at Stanford: IRB #41398 with written informed consent."
+  ],
+  "ReferencesAndLinks": [
+    "https://doi.org/10.1016/j.cub.2020.11.035",
+    "https://doi.org/10.5061/dryad.wdbrv15mq",
+    "https://zenodo.org/records/4283021"
+  ],
+  "DatasetDOI": "doi:10.5061/dryad.wdbrv15mq",
+  "Keywords": [
+    "intracranial EEG",
+    "virtual reality",
+    "threat",
+    "heights",
+    "anxiety",
+    "insula",
+    "orbitofrontal cortex",
+    "skin conductance",
+    "visual scanning"
+  ],
+  "SourceDatasets": [
+    {
+      "DOI": "doi:10.5061/dryad.wdbrv15mq",
+      "URL": "https://zenodo.org/records/4283021",
+      "Version": "Zenodo record 4283021 (published 2020-11-20)"
+    }
+  ],
+  "GeneratedBy": [
+    {
+      "Name": "b2zen_convert044.py",
+      "Description": "Lossless-to-float32 re-packaging of the authors' TDT MATLAB exports (volts) into BrainVision; no filtering, resampling, re-referencing or channel removal."
+    }
+  ]
+}

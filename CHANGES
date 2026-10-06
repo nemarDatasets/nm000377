@@ -1,0 +1,2 @@
+1.0.0 2026-10-06
+  - Initial iEEG-BIDS packaging of the iEEG part of Zenodo record 4283021 (no signal processing).

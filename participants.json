@@ -1,0 +1,37 @@
+{
+  "participant_id": {
+    "Description": "BIDS label from the release folder name (EC <n> -> EC<n>)"
+  },
+  "source_id": {
+    "Description": "Patient folder name in iEEG_data.zip"
+  },
+  "age": {
+    "Description": "Age (Table S1, Yilmaz Balban et al. 2021)",
+    "Units": "year"
+  },
+  "sex": {
+    "Description": "Gender (Table S1)",
+    "Levels": {
+      "M": "male",
+      "F": "female"
+    }
+  },
+  "group": {
+    "Description": "Participant group",
+    "Levels": {
+      "epilepsy_patient": "patient with treatment-resistant epilepsy implanted with intracranial electrodes (UCSF)"
+    }
+  },
+  "stai_state": {
+    "Description": "STAI State anxiety score (Table S1)"
+  },
+  "stai_trait": {
+    "Description": "STAI Trait anxiety score (Table S1)"
+  },
+  "gad7": {
+    "Description": "GAD-7 score (Table S1)"
+  },
+  "n_electrodes_in_table": {
+    "Description": "Rows in the electrode location table of the release"
+  }
+}

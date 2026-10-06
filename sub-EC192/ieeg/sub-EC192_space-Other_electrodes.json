@@ -1,0 +1,14 @@
+{
+  "group": {
+    "Description": "Electrode lead: name without trailing contact number"
+  },
+  "long_name": {
+    "Description": "Second column of the anatomy table of the release (long electrode name)"
+  },
+  "anatomy": {
+    "Description": "Fourth column of the anatomy table (automatic FreeSurfer-style anatomical label, as released)"
+  },
+  "row_in_source_table": {
+    "Description": "Row number in <EC n>_TDT_elecs_all_warped.mat. Rows whose name/type are 'NaN' in the release (placeholders with an identical dummy position) are listed as unlabeled_row<k> with n/a coordinates. The paper refers to electrodes by number (e.g. insula 53, 54, 3, 2, 21, 16); the release does not document how rows map to TDT channels ch001.."
+  }
+}

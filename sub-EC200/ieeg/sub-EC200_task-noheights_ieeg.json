@@ -1,0 +1,22 @@
+{
+  "TaskName": "noheights",
+  "TaskDescription": "No-heights control VR stimulus (identical environment, walls and ceiling removed, no heights); release: \"TDTData_baseline: raw iEEG signal from all channels during the no heights condition\"",
+  "InstitutionName": "University of California, San Francisco (UCSF) Hospital",
+  "InstitutionAddress": "San Francisco, CA, USA",
+  "Manufacturer": "Tucker-Davis Technologies",
+  "ManufacturersModelName": "PZ2 (256-channel) or PZ5 (512-channel) amplifier with RZ2 digital acquisition system",
+  "SamplingFrequency": 3051.7578,
+  "PowerLineFrequency": 60,
+  "SoftwareFilters": "n/a",
+  "HardwareFilters": "n/a",
+  "iEEGReference": "Not documented in the release (TDT raw export).",
+  "iEEGPlacementScheme": "Clinically determined implant for seizure localization; subdural grid (64 contacts) and strips (36 contacts) per the electrode table of the release",
+  "SEEGChannelCount": 0,
+  "ECOGChannelCount": 128,
+  "EEGChannelCount": 0,
+  "MiscChannelCount": 0,
+  "TriggerChannelCount": 0,
+  "RecordingType": "continuous",
+  "RecordingDuration": 481.00049093017805,
+  "SourceFile": "iEEG data/EC 200/TDTData_B19_baseline.mat (variable Data); TDT block B19"
+}

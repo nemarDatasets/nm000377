@@ -1,6 +1,11 @@
 {
   "version": "2.0",
   "pipeline_stage": "validated",
+  "title": "Human Responses to Visually Evoked Threat: intracranial EEG during virtual-reality heights, no-heights and shark stimuli (3 patients)",
+  "description": "Intracranial EEG recordings from three patients with treatment-resistant epilepsy who viewed immersive virtual-reality stimuli: a modified virtual-heights scene, a no-heights baseline in a virtual hospital room, and a 360-degree great white shark movie. Skin conductance and visual-scanning measures were recorded alongside the iEEG. Electrodes covered regions of interest including the insula and orbitofrontal cortex. The data support study of the neural basis of visually evoked threat and anxiety responses.",
+  "methods_description": "iEEG was recorded at UCSF with Tucker-Davis Technologies PZ2/PZ5 amplifiers and an RZ2 acquisition system at 3051.76 Hz, using depth electrodes, a grid and strips. Stimuli were Unity-programmed VR scenes shown on an HTC Vive headset. Raw TDT MATLAB exports were converted to BrainVision float32 with no filtering, resampling or re-referencing. Electrodes were localized by co-registering pre-operative MRI with post-operative CT.",
+  "license": "CC0-1.0",
+  "dataset_type": "raw",
   "authors": {
     "Melis Yilmaz Balban": {
       "orcid": "0000-0002-2343-8895",
@@ -49,6 +54,34 @@
     },
     "Andrew Huberman": {}
   },
+  "keywords": [
+    {
+      "term": "intracranial EEG"
+    },
+    {
+      "term": "virtual reality"
+    },
+    {
+      "term": "threat"
+    },
+    {
+      "term": "anxiety"
+    },
+    {
+      "term": "insula"
+    },
+    {
+      "term": "orbitofrontal cortex"
+    },
+    {
+      "term": "Epilepsy",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004827"
+    },
+    {
+      "term": "skin conductance"
+    }
+  ],
   "related_identifiers": [
     {
       "identifier": "10.5061/dryad.wdbrv15mq",
@@ -71,14 +104,11 @@
       "relation_type": "IsDescribedBy"
     }
   ],
-  "title": "Human Responses to Visually Evoked Threat: intracranial EEG during virtual-reality heights, no-heights and shark stimuli (3 patients)",
-  "license": "CC0-1.0",
-  "dataset_type": "raw",
   "resource_type_general": "Dataset",
+  "resource_type_specific": "iEEG Dataset",
   "modalities": [
     "ieeg"
   ],
-  "resource_type_specific": "iEEG Dataset",
   "sizes": [
     "9.30 GB (43 files)"
   ],
@@ -103,34 +133,36 @@
     ".txt",
     ".vhdr",
     ".vmrk",
+    ".yml",
     ".zip"
   ],
-  "description": "Intracranial EEG recordings from three patients with treatment-resistant epilepsy who viewed immersive virtual-reality stimuli: a modified virtual-heights scene, a matched no-heights control, and (in two patients) a 360-degree shark movie. Simultaneous skin conductance and visual-scanning measures were collected. Electrodes in the insula and orbitofrontal cortex were the focus of the associated study on human responses to visually evoked threat. This is the iEEG portion of the original data release, converted to BIDS without signal processing.",
-  "methods_description": "Recordings used a Tucker-Davis Technologies PZ2 (256-channel) or PZ5 (512-channel) amplifier with an RZ2 acquisition system, sampled at 3051.76 Hz, while patients wore a VR headset secured with a custom Velcro cap. Original MATLAB exports (volts) were re-packaged to BrainVision float32 with no filtering, resampling, re-referencing or channel removal. Electrode tables are provided in an arbitrary space.",
-  "keywords": [
+  "funding_references": [
     {
-      "term": "intracranial EEG"
+      "funder_name": "Discovery Innovation Award from Stanford School of Medicine (A.D.H.)"
     },
     {
-      "term": "virtual reality"
+      "funder_name": "Stanford School of Medicine Dean's Fellowship (M.Y.B.)"
     },
     {
-      "term": "threat"
+      "funder_name": "Shurl and Kay Curci Foundation (E.F.C.)"
     },
     {
-      "term": "Anxiety",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D001007"
+      "funder_name": "William K. Bowes Foundation (E.F.C.)"
     },
     {
-      "term": "insula"
+      "funder_name": "Stanford School of Medicine",
+      "award_title": "Discovery Innovation Award"
     },
     {
-      "term": "orbitofrontal cortex"
+      "funder_name": "Shurl and Kay Curci Foundation"
     },
     {
-      "term": "skin conductance"
+      "funder_name": "William K. Bowes Foundation"
+    },
+    {
+      "funder_name": "NIH",
+      "award_number": "R01-DC012379"
     }
   ],
-  "source_hash": "dadfbc40934986848db7cee706e4db81aa20dca220f061b20c5fc7db90853bd5"
+  "source_hash": "3378f20afd09c5c57f184237183562f00b8752350ea8e2456aae8e4adb83b569"
 }

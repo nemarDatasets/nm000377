@@ -13,16 +13,24 @@
     "Edward Chang",
     "Andrew Huberman"
   ],
-  "Acknowledgements": "Data release: Dryad doi:10.5061/dryad.wdbrv15mq, mirrored as Zenodo record 4283021. BIDS conversion of the iEEG part: ieeg-nemar-20261005 campaign (batch-2 Zenodo lane); no signal processing applied.",
+  "Acknowledgements": "Data release: Dryad doi:10.5061/dryad.wdbrv15mq, mirrored as Zenodo record 4283021. BIDS conversion of the iEEG part: ieeg-nemar-20261005 campaign (batch-2 Zenodo lane); no signal processing applied. From the paper's Acknowledgments: \"We thank Troy Allen Norcross and Game Hearts Co. for their help in programming the VR stimuli; Adam Osfield Snell, Vrtul team, and Dogz101 RWC for helping shoot and produce 360 movies; Dr. Mahendra Bhati for his help in qualifying anxious subjects for our study; Dr. Mauricio Hoyos and the Semarnat Authority (Secretaría del Medio Ambiente y Recursos Naturales) for permission to film the 360 movies of great white sharks at the Guadalupe Is. Field Station; Michael Muller and team for VR movie filming of sharks; members of the Chang Lab for helping with logistics to record from epilepsy patients; Gary Holl for ongoing infrastructure operations of the Huberman VR Laboratory; and Heekyung Jung, and Supraja Varadarajan for comments on the manuscript.\"",
   "HowToAcknowledge": "Please cite Yilmaz Balban M, Cafaro E, Saue-Fletcher L, Washington MJ, Bijanzadeh M, Lee AM, Chang EF, Huberman AD (2021) Human Responses to Visually Evoked Threat. Curr Biol 31(3):601-612.e3. doi:10.1016/j.cub.2020.11.035, and the data record doi:10.5061/dryad.wdbrv15mq.",
-  "Funding": [],
+  "Funding": [
+    "Discovery Innovation Award from Stanford School of Medicine (A.D.H.)",
+    "Stanford School of Medicine Dean's Fellowship (M.Y.B.)",
+    "Shurl and Kay Curci Foundation (E.F.C.)",
+    "William K. Bowes Foundation (E.F.C.)",
+    "R01-DC012379 (E.F.C.)"
+  ],
   "EthicsApprovals": [
     "iEEG: procedures approved by the University of California, San Francisco Institutional Review Board; all subjects provided written consent (Yilmaz Balban et al. 2021, STAR Methods). VR experiments at Stanford: IRB #41398 with written informed consent."
   ],
   "ReferencesAndLinks": [
     "https://doi.org/10.1016/j.cub.2020.11.035",
     "https://doi.org/10.5061/dryad.wdbrv15mq",
-    "https://zenodo.org/records/4283021"
+    "https://zenodo.org/records/4283021",
+    "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8407368/",
+    "https://github.com/lciti/cvxEDA"
   ],
   "DatasetDOI": "doi:10.5061/dryad.wdbrv15mq",
   "Keywords": [
@@ -34,7 +42,11 @@
     "insula",
     "orbitofrontal cortex",
     "skin conductance",
-    "visual scanning"
+    "visual scanning",
+    "epilepsy",
+    "electrocorticography",
+    "stereo-EEG",
+    "UCSF"
   ],
   "SourceDatasets": [
     {

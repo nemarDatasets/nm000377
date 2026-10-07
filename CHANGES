@@ -1,2 +1,5 @@
+1.0.1 2026-10-07
+  - 2026-10-07 metadata enrichment: dataset_description.json Funding filled from the paper's Acknowledgments (was empty), acknowledgements, PMC/code links, keywords; participants.tsv gains implant type, electrode-lead count, implanted hemisphere (release electrode tables), paper regions of interest and visual-scan counts (Results), TDT export year-month (MAT headers); participants.json describes every column; *_ieeg.json TaskDescription corrected for the patients' modified heights stimulus and no-heights baseline, Instructions (heights), iEEGElectrodeGroups, iEEGGround (n/a), ECG/EOG/EMG counts added; README restructured. Sources: Yilmaz Balban et al. 2021 Curr Biol doi:10.1016/j.cub.2020.11.035 (PMC8407368) and Supplemental Information; Dryad doi:10.5061/dryad.wdbrv15mq / Zenodo 4283021.
+
 1.0.0 2026-10-06
   - Initial iEEG-BIDS packaging of the iEEG part of Zenodo record 4283021 (no signal processing).

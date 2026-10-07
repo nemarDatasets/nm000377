@@ -1,4 +1,4 @@
-participant_id	source_id	age	sex	group	stai_state	stai_trait	gad7	n_electrodes_in_table
-sub-EC192	EC 192	33	M	epilepsy_patient	50	66	19	94
-sub-EC200	EC 200	23	M	epilepsy_patient	22	27	3	100
-sub-EC205	EC 205	44	F	epilepsy_patient	24	26	12	52
+participant_id	source_id	age	sex	group	stai_state	stai_trait	gad7	n_electrodes_in_table	implant_type	n_electrode_leads	implanted_hemisphere	paper_regions_of_interest	n_visual_scans_heights	tdt_export_year_month
+sub-EC192	EC 192	33	M	epilepsy_patient	50	66	19	94	depth	9	R	insula	3	2019-02
+sub-EC200	EC 200	23	M	epilepsy_patient	22	27	3	100	grid+strip	8	R	OFC	0	2019-05
+sub-EC205	EC 205	44	F	epilepsy_patient	24	26	12	52	depth	5	R	insula+OFC	2	2019-08

@@ -6,32 +6,69 @@
     "Description": "Patient folder name in iEEG_data.zip"
   },
   "age": {
-    "Description": "Age (Table S1, Yilmaz Balban et al. 2021)",
+    "Description": "Age in years (Table S1, 'Modified Heights Stimulus' columns, Yilmaz Balban et al. 2021 Curr Biol 31:601-612.e3, doi:10.1016/j.cub.2020.11.035)",
     "Units": "year"
   },
   "sex": {
-    "Description": "Gender (Table S1)",
+    "Description": "Gender (Table S1). Note: the Results text refers to EC 200 as 'her' while Table S1 lists EC 200 as M; the table value is kept.",
     "Levels": {
       "M": "male",
       "F": "female"
     }
   },
   "group": {
-    "Description": "Participant group",
+    "Description": "Participant group: patients with treatment-resistant epilepsy implanted with intracranial electrodes for localisation of seizure foci at the UCSF Hospital (under Dr. Edward Chang's care); included if they had electrodes in the regions of interest (insula, OFC) and were willing to do the VR task (Yilmaz Balban et al. 2021 Curr Biol 31:601-612.e3, doi:10.1016/j.cub.2020.11.035, STAR Methods)",
     "Levels": {
       "epilepsy_patient": "patient with treatment-resistant epilepsy implanted with intracranial electrodes (UCSF)"
     }
   },
   "stai_state": {
-    "Description": "STAI State anxiety score (Table S1)"
+    "Description": "STAI State anxiety score (Table S1, 'STAI Score (State, Trait)')",
+    "Units": "score"
   },
   "stai_trait": {
-    "Description": "STAI Trait anxiety score (Table S1)"
+    "Description": "STAI Trait anxiety score (Table S1, 'STAI Score (State, Trait)')",
+    "Units": "score"
   },
   "gad7": {
-    "Description": "GAD-7 score (Table S1)"
+    "Description": "GAD-7 score (Table S1)",
+    "Units": "score"
   },
   "n_electrodes_in_table": {
-    "Description": "Rows in the electrode location table of the release"
+    "Description": "Rows in the electrode location table of the release",
+    "Units": "count"
+  },
+  "implant_type": {
+    "Description": "Electrode type(s) in the release electrode table (<EC n>_TDT_elecs_all_warped.mat, column type)",
+    "Levels": {
+      "depth": "depth electrodes only",
+      "grid+strip": "subdural grid (64 contacts) and strips"
+    }
+  },
+  "n_electrode_leads": {
+    "Description": "Number of electrode leads (distinct electrode names without contact number) in the release electrode table, excluding NaN placeholder rows",
+    "Units": "count"
+  },
+  "implanted_hemisphere": {
+    "Description": "Implanted hemisphere derived from the release electrode table: anatomical labels (rh / Right-) and positive x of the warped coordinates for all leads (EC205: the deep tips of two right-sided leads reach the midline, one contact labelled ctx_lh_G_rectus). Not stated in the paper text.",
+    "Levels": {
+      "R": "right",
+      "L": "left"
+    }
+  },
+  "paper_regions_of_interest": {
+    "Description": "Regions analysed in the paper for this patient: electrodes in the insula (EC 192, EC 205) and in the orbitofrontal cortex (EC 200, EC 205) (Yilmaz Balban et al. 2021 Curr Biol 31:601-612.e3, doi:10.1016/j.cub.2020.11.035, Results)",
+    "Levels": {
+      "insula": "insula electrodes analysed",
+      "OFC": "orbitofrontal cortex electrodes analysed",
+      "insula+OFC": "both"
+    }
+  },
+  "n_visual_scans_heights": {
+    "Description": "Number of visual scanning episodes during the modified heights stimulus reported in the paper (3 from EC 192, 2 from EC 205; EC 200 had none) (Yilmaz Balban et al. 2021 Curr Biol 31:601-612.e3, doi:10.1016/j.cub.2020.11.035, Results)",
+    "Units": "count"
+  },
+  "tdt_export_year_month": {
+    "Description": "Year and month in the 'Created on' header of this patient's TDTData_*.mat iEEG files in the release (MATLAB export date; the recordings took place on or before it). The recording dates are not documented. Day intentionally omitted."
   }
 }

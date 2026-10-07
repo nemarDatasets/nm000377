@@ -11,6 +11,7 @@
   "HardwareFilters": "n/a",
   "iEEGReference": "Not documented in the release (TDT raw export).",
   "iEEGPlacementScheme": "Clinically determined implant for seizure localization; depth electrodes per the electrode table of the release",
+  "iEEGElectrodeGroups": "Electrode leads of the release electrode table: OFC1 (depth, 10 contacts), OFC2 (depth, 10 contacts), OFC3 (depth, 10 contacts), CIN (depth, 10 contacts), SMG (depth, 10 contacts). The mapping of TDT inputs (ch001..) to these leads is not documented in the release.",
   "SEEGChannelCount": 64,
   "ECOGChannelCount": 0,
   "EEGChannelCount": 0,
@@ -18,5 +19,9 @@
   "TriggerChannelCount": 0,
   "RecordingType": "continuous",
   "RecordingDuration": 554.0003862691856,
-  "SourceFile": "iEEG data/EC 205/TDTData_205_B12_sharks.mat (variable Data); TDT block B12"
+  "SourceFile": "iEEG data/EC 205/TDTData_205_B12_sharks.mat (variable Data); TDT block B12",
+  "iEEGGround": "n/a (not documented in the paper or the release)",
+  "ECGChannelCount": 0,
+  "EOGChannelCount": 0,
+  "EMGChannelCount": 0
 }

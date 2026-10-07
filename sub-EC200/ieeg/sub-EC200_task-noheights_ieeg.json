@@ -1,6 +1,6 @@
 {
   "TaskName": "noheights",
-  "TaskDescription": "No-heights control VR stimulus (identical environment, walls and ceiling removed, no heights); release: \"TDTData_baseline: raw iEEG signal from all channels during the no heights condition\"",
+  "TaskDescription": "'No Heights' baseline: 5 min in the virtual hospital room without the heights stimulus, measured before the heights stimulus (Yilmaz Balban et al. 2021 Curr Biol 31:601-612.e3, doi:10.1016/j.cub.2020.11.035, STAR Methods, Modified Heights Stimulus); release: \"TDTData_baseline: raw iEEG signal from all channels during the no heights condition\"",
   "InstitutionName": "University of California, San Francisco (UCSF) Hospital",
   "InstitutionAddress": "San Francisco, CA, USA",
   "Manufacturer": "Tucker-Davis Technologies",
@@ -11,6 +11,7 @@
   "HardwareFilters": "n/a",
   "iEEGReference": "Not documented in the release (TDT raw export).",
   "iEEGPlacementScheme": "Clinically determined implant for seizure localization; subdural grid (64 contacts) and strips (36 contacts) per the electrode table of the release",
+  "iEEGElectrodeGroups": "Electrode leads of the release electrode table: FG (grid, 64 contacts), FS (strip, 6 contacts), IHA (strip, 6 contacts), IHB (strip, 4 contacts), IHC (strip, 6 contacts), FPA (strip, 6 contacts), FPB (strip, 4 contacts), OFC (strip, 4 contacts). The mapping of TDT inputs (ch001..) to these leads is not documented in the release.",
   "SEEGChannelCount": 0,
   "ECOGChannelCount": 128,
   "EEGChannelCount": 0,
@@ -18,5 +19,9 @@
   "TriggerChannelCount": 0,
   "RecordingType": "continuous",
   "RecordingDuration": 481.00049093017805,
-  "SourceFile": "iEEG data/EC 200/TDTData_B19_baseline.mat (variable Data); TDT block B19"
+  "SourceFile": "iEEG data/EC 200/TDTData_B19_baseline.mat (variable Data); TDT block B19",
+  "iEEGGround": "n/a (not documented in the paper or the release)",
+  "ECGChannelCount": 0,
+  "EOGChannelCount": 0,
+  "EMGChannelCount": 0
 }

@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Human Responses to Visually Evoked Threat: intracranial EEG during virtual-reality heights, no-heights and shark stimuli (3 patients)",
-  "description": "Intracranial EEG recordings from three patients with treatment-resistant epilepsy who viewed immersive virtual-reality stimuli: a modified virtual-heights scene, a no-heights baseline in a virtual hospital room, and a 360-degree great white shark movie. Skin conductance and visual-scanning measures were recorded alongside the iEEG. Electrodes covered regions of interest including the insula and orbitofrontal cortex. The data support study of the neural basis of visually evoked threat and anxiety responses.",
-  "methods_description": "iEEG was recorded at UCSF with Tucker-Davis Technologies PZ2/PZ5 amplifiers and an RZ2 acquisition system at 3051.76 Hz, using depth electrodes, a grid and strips. Stimuli were Unity-programmed VR scenes shown on an HTC Vive headset. Raw TDT MATLAB exports were converted to BrainVision float32 with no filtering, resampling or re-referencing. Electrodes were localized by co-registering pre-operative MRI with post-operative CT.",
+  "description": "Intracranial EEG recordings from three patients with treatment-resistant epilepsy at UCSF who experienced immersive virtual-reality stimuli: a modified virtual-heights scenario, a no-heights baseline, and a 360° great white shark movie. Skin conductance and visual-scanning measures were recorded alongside. Electrodes covered regions such as the insula and orbitofrontal cortex, which are relevant to threat and anxiety responses. The data are raw TDT exports repackaged in BIDS (BrainVision) without signal processing.",
+  "methods_description": "Recordings used a Tucker-Davis Technologies PZ2 or PZ5 amplifier with an RZ2 acquisition system at 3051.76 Hz. Patients wore an HTC Vive headset showing Unity-programmed VR stimuli while skin conductance was recorded simultaneously. Electrodes were localized by co-registering pre-operative 3T T1 MRI with post-operative CT. Source MATLAB exports (volts) were written as float32 BrainVision files with no filtering, resampling or re-referencing.",
   "license": "CC0-1.0",
   "dataset_type": "raw",
   "authors": {
@@ -65,18 +65,22 @@
       "term": "threat"
     },
     {
-      "term": "anxiety"
-    },
-    {
-      "term": "insula"
-    },
-    {
-      "term": "orbitofrontal cortex"
+      "term": "Anxiety",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D001007"
     },
     {
       "term": "Epilepsy",
       "subject_scheme": "MeSH",
       "value_uri": "http://id.nlm.nih.gov/mesh/D004827"
+    },
+    {
+      "term": "Electrocorticography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D000069280"
+    },
+    {
+      "term": "insula"
     },
     {
       "term": "skin conductance"
@@ -102,6 +106,34 @@
       "identifier": "https://nemar.org/dataset/nm000377",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
+    }
+  ],
+  "funding_references": [
+    {
+      "funder_name": "Discovery Innovation Award from Stanford School of Medicine (A.D.H.)"
+    },
+    {
+      "funder_name": "Stanford School of Medicine Dean's Fellowship (M.Y.B.)"
+    },
+    {
+      "funder_name": "Shurl and Kay Curci Foundation (E.F.C.)"
+    },
+    {
+      "funder_name": "William K. Bowes Foundation (E.F.C.)"
+    },
+    {
+      "funder_name": "Stanford School of Medicine",
+      "award_title": "Discovery Innovation Award"
+    },
+    {
+      "funder_name": "Shurl and Kay Curci Foundation"
+    },
+    {
+      "funder_name": "William K. Bowes Foundation"
+    },
+    {
+      "funder_name": "NIH",
+      "award_number": "R01-DC012379"
     }
   ],
   "resource_type_general": "Dataset",
@@ -136,33 +168,5 @@
     ".yml",
     ".zip"
   ],
-  "funding_references": [
-    {
-      "funder_name": "Discovery Innovation Award from Stanford School of Medicine (A.D.H.)"
-    },
-    {
-      "funder_name": "Stanford School of Medicine Dean's Fellowship (M.Y.B.)"
-    },
-    {
-      "funder_name": "Shurl and Kay Curci Foundation (E.F.C.)"
-    },
-    {
-      "funder_name": "William K. Bowes Foundation (E.F.C.)"
-    },
-    {
-      "funder_name": "Stanford School of Medicine",
-      "award_title": "Discovery Innovation Award"
-    },
-    {
-      "funder_name": "Shurl and Kay Curci Foundation"
-    },
-    {
-      "funder_name": "William K. Bowes Foundation"
-    },
-    {
-      "funder_name": "NIH",
-      "award_number": "R01-DC012379"
-    }
-  ],
-  "source_hash": "3378f20afd09c5c57f184237183562f00b8752350ea8e2456aae8e4adb83b569"
+  "source_hash": "e7af678513602836505c448d6eda23066385294cc77210742d62f539535057db"
 }

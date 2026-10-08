@@ -1,3 +1,5 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.nm000377-blue)](https://doi.org/10.82901/nemar.nm000377)
+
 # Human Responses to Visually Evoked Threat — intracranial EEG (3 patients)
 
 ## Overview

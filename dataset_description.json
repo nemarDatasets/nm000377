@@ -32,7 +32,7 @@
     "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8407368/",
     "https://github.com/lciti/cvxEDA"
   ],
-  "DatasetDOI": "doi:10.5061/dryad.wdbrv15mq",
+  "DatasetDOI": "10.82901/nemar.nm000377",
   "Keywords": [
     "intracranial EEG",
     "virtual reality",
@@ -60,5 +60,6 @@
       "Name": "b2zen_convert044.py",
       "Description": "Lossless-to-float32 re-packaging of the authors' TDT MATLAB exports (volts) into BrainVision; no filtering, resampling, re-referencing or channel removal."
     }
-  ]
+  ],
+  "Version": "1.0.0"
 }

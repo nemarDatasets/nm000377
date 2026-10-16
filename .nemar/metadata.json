@@ -1,7 +1,7 @@
 {
   "version": "2.0",
   "pipeline_stage": "validated",
-  "title": "YilmazBalban-2021-human-10.1016/j.cub.2020.11.035",
+  "title": "Human Responses to Visually Evoked Threat: intracranial EEG during virtual-reality heights, no-heights and shark stimuli (3 patients)",
   "description": "Intracranial EEG recordings from three patients with treatment-resistant epilepsy who experienced immersive virtual-reality threat stimuli, including a modified virtual-heights scene, a no-heights baseline, and a 360° great white shark movie. Skin conductance and visual scanning were measured simultaneously. Electrodes covered regions of interest such as the insula and orbitofrontal cortex, supporting study of human responses to visually evoked threat.",
   "methods_description": "iEEG was recorded at UCSF with Tucker-Davis Technologies PZ2/PZ5 amplifiers and an RZ2 system at 3051.76 Hz. Patients wore an HTC Vive headset showing Unity-programmed VR stimuli. Raw TDT MATLAB exports were converted to BrainVision float32 without filtering, resampling or re-referencing.",
   "license": "CC0-1.0",
@@ -166,5 +166,5 @@
     ".yml",
     ".zip"
   ],
-  "source_hash": "d77198cedd52f2bf07f56ec3e89d25f4b60bf7e045e249255bd559c4fbb23e78"
+  "source_hash": "3473f5963e60ae28c9ff712e877dcdb598994ee634722f8584030b7da269ff6f"
 }

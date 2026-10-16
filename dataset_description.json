@@ -1,5 +1,5 @@
 {
-  "Name": "Human Responses to Visually Evoked Threat: intracranial EEG during virtual-reality heights, no-heights and shark stimuli (3 patients)",
+  "Name": "YilmazBalban-2021-human-10.1016/j.cub.2020.11.035",
   "BIDSVersion": "1.10.0",
   "DatasetType": "raw",
   "License": "CC0-1.0",
@@ -61,5 +61,5 @@
       "Description": "Lossless-to-float32 re-packaging of the authors' TDT MATLAB exports (volts) into BrainVision; no filtering, resampling, re-referencing or channel removal."
     }
   ],
-  "Version": "1.0.0"
+  "Version": "1.0.1"
 }

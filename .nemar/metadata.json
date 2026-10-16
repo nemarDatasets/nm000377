@@ -1,9 +1,9 @@
 {
   "version": "2.0",
   "pipeline_stage": "validated",
-  "title": "Human Responses to Visually Evoked Threat: intracranial EEG during virtual-reality heights, no-heights and shark stimuli (3 patients)",
-  "description": "Intracranial EEG recordings from three patients with treatment-resistant epilepsy at UCSF who experienced immersive virtual-reality stimuli: a modified virtual-heights scenario, a no-heights baseline, and a 360° great white shark movie. Skin conductance and visual-scanning measures were recorded alongside. Electrodes covered regions such as the insula and orbitofrontal cortex, which are relevant to threat and anxiety responses. The data are raw TDT exports repackaged in BIDS (BrainVision) without signal processing.",
-  "methods_description": "Recordings used a Tucker-Davis Technologies PZ2 or PZ5 amplifier with an RZ2 acquisition system at 3051.76 Hz. Patients wore an HTC Vive headset showing Unity-programmed VR stimuli while skin conductance was recorded simultaneously. Electrodes were localized by co-registering pre-operative 3T T1 MRI with post-operative CT. Source MATLAB exports (volts) were written as float32 BrainVision files with no filtering, resampling or re-referencing.",
+  "title": "YilmazBalban-2021-human-10.1016/j.cub.2020.11.035",
+  "description": "Intracranial EEG recordings from three patients with treatment-resistant epilepsy who experienced immersive virtual-reality threat stimuli, including a modified virtual-heights scene, a no-heights baseline, and a 360° great white shark movie. Skin conductance and visual scanning were measured simultaneously. Electrodes covered regions of interest such as the insula and orbitofrontal cortex, supporting study of human responses to visually evoked threat.",
+  "methods_description": "iEEG was recorded at UCSF with Tucker-Davis Technologies PZ2/PZ5 amplifiers and an RZ2 system at 3051.76 Hz. Patients wore an HTC Vive headset showing Unity-programmed VR stimuli. Raw TDT MATLAB exports were converted to BrainVision float32 without filtering, resampling or re-referencing.",
   "license": "CC0-1.0",
   "dataset_type": "raw",
   "authors": {
@@ -65,9 +65,13 @@
       "term": "threat"
     },
     {
-      "term": "Anxiety",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D001007"
+      "term": "anxiety"
+    },
+    {
+      "term": "insula"
+    },
+    {
+      "term": "orbitofrontal cortex"
     },
     {
       "term": "Epilepsy",
@@ -78,12 +82,6 @@
       "term": "Electrocorticography",
       "subject_scheme": "MeSH",
       "value_uri": "http://id.nlm.nih.gov/mesh/D000069280"
-    },
-    {
-      "term": "insula"
-    },
-    {
-      "term": "skin conductance"
     }
   ],
   "related_identifiers": [
@@ -168,5 +166,5 @@
     ".yml",
     ".zip"
   ],
-  "source_hash": "e7af678513602836505c448d6eda23066385294cc77210742d62f539535057db"
+  "source_hash": "d77198cedd52f2bf07f56ec3e89d25f4b60bf7e045e249255bd559c4fbb23e78"
 }
